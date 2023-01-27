@@ -1,12 +1,10 @@
 html {
-  
-
   /* UI Properties */
   background: rgba(173, 173, 173, 1) 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 body {
-    top: 0px;
+  top: 0px;
   left: 0px;
   width: 1560px;
   height: 720px;
@@ -394,18 +392,18 @@ aside {
   background: 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.maintenence-def-text{
-    top:299.97px;
-    left:75px;
-    position: absolute;
-    width: 92px;
-height: 21px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 16px/21px Roboto;
-letter-spacing: 0px;
-color: rgba(62, 62, 62, 1);
-opacity: 1;
+.maintenence-def-text {
+  top: 299.97px;
+  left: 75px;
+  position: absolute;
+  width: 92px;
+  height: 21px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/21px Roboto;
+  letter-spacing: 0px;
+  color: rgba(62, 62, 62, 1);
+  opacity: 1;
 }
 .setting-def-img {
   position: absolute;
@@ -414,19 +412,191 @@ opacity: 1;
   width: 17px;
   height: 17px;
   /* UI Properties */
-  background:  0% 0% no-repeat padding-box;
+  background: 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.setting-def-text{
-    top:352.97px;
-    left:75px;
-    position: absolute;
-    width: 50px;
-    height: 21px;
-    /* UI Properties */
-    text-align: left;
-    font: normal normal normal 16px/21px Roboto;
-    letter-spacing: 0px;
-    color: rgba(62, 62, 62, 1);
-    opacity: 1;
+.setting-def-text {
+  top: 352.97px;
+  left: 75px;
+  position: absolute;
+  width: 50px;
+  height: 21px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/21px Roboto;
+  letter-spacing: 0px;
+  color: rgba(62, 62, 62, 1);
+  opacity: 1;
+}
+.sec-title {
+  position: absolute;
+  top: 121px;
+  left: 290px;
+  width: 146px;
+  height: 39px;
+  /* UI Properties */
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: "medium";
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.flex-container > div {
+  position: absolute;
+  top: 182px;
+  width: 219px;
+  height: 116px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+.flex-container div img {
+  position: absolute;
+  top: 41.33px;
+  left: 38.03px;
+  width: 33px;
+  height: 33px;
+}
+.flex-container div span {
+  position: absolute;
+  top: 31px;
+  left: 90.7px;
+  width: 77px;
+  height: 33px;
+  /* UI Properties */
+  text-align: left;
+  font-family: "Roboto";
+  letter-spacing: 0px;
+  font-weight: medium;
+  font-size: 25px;
+  color: #3e3e3e;
+  opacity: 1;
+}
+.flex-container .main-subtitle {
+  position: absolute;
+  top: 62.13px;
+  width: 94px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: "Roboto";
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
+}
+.flex-container2 > div {
+  display: flex;
+  position: absolute;
+  top: 328px;
+
+  height: 400px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+.sale-subtitle {
+  top: 23.52px;
+  left: 29px;
+  position: absolute;
+  text-align: left;
+
+  font-weight: medium;
+  font-size: 22px;
+  font-family: "Roboto";
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
+}
+.sale-span3 {
+  position: absolute;
+  left: 739px;
+  top: 24.1px;
+  font-size: 12px;
+  font-family: "Roboto";
+  color: #c8242f;
+  text-decoration: underline;
+  text-decoration-color: #c8242f;
+  text-decoration-thickness: 2px;
+}
+.sale-country {
+  position: absolute;
+  top: 21.52px;
+  left: 29px;
+  width: 165px;
+  height: 29px;
+  /* UI Properties */
+  text-align: left;
+  font-weight: medium;
+  font-family: "Roboto";
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
+}
+.radio-row-1 {
+  position: absolute;
+  top: 306px;
+  left: 49px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.radio-row-1-text {
+  top: 305.13px;
+  left: 76px;
+  position: absolute;
+  width: 166px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
+}
+.invoice-flex {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top: 758px;
+  left: 292px;
+  width: 1217px;
+  height: 558px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.invoice-row-1 >span{
+  position: absolute;
+  top:88.13px;
+  left:40px;
+  line-height: 24px;
+  margin-bottom:27px;
+}
+.invoice-head-span1{
+  
+height: 20px;
+/* UI Properties */
+text-align: left;
+font-size: 12px;
+letter-spacing: 1.5px;
+color: #ADADAD;
+opacity: 1;
+}
+.invoice-row-2 >span{
+  position: absolute;
+  top:135.13px;
+  left:40px;
+  line-height: 24px;
+  margin-bottom:27px;
 }
