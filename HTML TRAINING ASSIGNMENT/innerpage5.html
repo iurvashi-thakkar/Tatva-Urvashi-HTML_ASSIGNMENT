@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="./css/dashboard5.css">
+	<title>AdminSite</title>
+</head>
+<body >
+	
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand"></a>  
+		<ul class="side-menu">
+            <li><a href="/dashboard5.html" ><img src="./images/dashboard-default.svg" style="margin-left: 12px;margin-right: 12px;">Dashboard</a></li>
+            <li><a href="#" class="active " ><img src="./images/graph-active.svg" style="margin-left: 12px;margin-right: 12px;">  Analysis</a></li>
+            <li><a href="#" ><img src="./images/inbox-default.svg" style="margin-left: 12px;margin-right: 12px;">  Inbox</a></li>
+            <li><a href="#" ><img src="./images/clock-default.svg" style="margin-left: 12px;margin-right: 12px;">  History</a></li>
+            <li><a href="#" ><img src="./images/user-default.svg" style="margin-left: 12px;margin-right: 12px;">  Users</a></li>
+            <li><a href="#" ><img src="./images/maintenance-default.svg" style="margin-left: 12px;margin-right: 12px;">  Maintenance</a></li>
+            <li><a href="#" ><img src="./images/setting-default.svg" style="margin-left: 12px;margin-right: 12px;">  setting</a></li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+            <i class='bx bx-menu toggle-sidebar'></i>
+            <img src="images/header-logo.svg"/>
+			<form action="#">
+				<div class="form-group">
+					<input type="text" placeholder="Search...">
+					<i class='bx bx-search icon' ></i>
+				</div>
+			</form>
+			<a href="#" class="nav-link">
+				<i class='bx bxs-bell icon' ></i>
+				<span class="badge">5</span>
+			</a>
+			<div class="profile">
+				<img src="images/profile.png" alt="">
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+
+			<h1 class="title">Analysis</h1>
+    <div class="container-fluid" style="background: #ffffff;">
+        <div class="row">
+            <div class="col-lg-12">
+                One column
+            </div>
+            <div class="col-lg-12 my-3">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            </div>
+            <div class="col-lg-12 my-3">
+                <select class="form-select" placeholder="Dropdown">
+                    <option>Dropdown</option>
+                </select>
+            </div>
+            <div class="form-floating col-lg-12 my-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+        </div>
+
+        <!-- Two column row-->
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                Two column
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 my-3">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                <div class="col-lg-6 col-md-6 my-3">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 my-3 ">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                <div class="col-lg-6 col-md-6 my-3 ">
+                    <select class="form-select" placeholder="Dropdown">
+                        <option>Dropdown</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- three column row -->
+        <div class="row">
+            <div class="col-lg-12">
+                Three column
+            </div>
+            <div class="col-lg-4 col-md-4 my-3">
+                <input type="text" class="form-control border-danger" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            </div>
+            <div class="col-lg-4 col-md-4 my-3">
+                <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            </div>
+            <div class="col-lg-4 col-md-4 my-3">
+                <input type="text" class="form-control disabled" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" style="border:1px dashed #ADADAD;">
+            </div>
+        </div>
+   
+
+    <!-- four column row -->
+    <div class="row">
+        <div class="col-lg-12">
+            Four column
+        </div>
+        <div class="col-lg-3 col-md-3 my-3">
+            
+            <input type="text" class="form-control border-danger" id="validationServer01" value="UI-designer">
+                <div style="color: red;">
+                    Looks good!
+                </div>
+        </div>
+        <div class="col-lg-3 col-md-3 my-3">
+            <input type="text" class="form-control" id="validationServer01" placeholder="Name" >
+                <div style="color:#ADADAD">
+                    Enter your full name as per ID
+                </div>
+        </div>
+        <div class="col-lg-3 col-md-3 my-3">
+            <input type="text" class="form-control" id="validationServer01" value="John Doe" >
+        </div>
+        <div class="col-lg-3 col-md-3 my-3">
+                <select class="form-select" placeholder="Dropdown">
+                    <option>Dropdown</option>
+                </select>
+        </div>
+    </div>
+
+    <!-- other desgn element-file upload -->
+    <div class="row">
+        <div class="col-lg-12 my-3">
+            Other Design Elements
+        </div>
+        <div class="col-lg-12 my-3">
+            File Upload
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-outline-danger" style="border-radius: 20px;width:150px">Upload</button>
+            <span style="margin-left: 3%;color:#ADADAD">No item Selected</span>
+        </div>
+    </div>
+
+    <!-- Radio Button -->
+    <div class="row">
+        <div class="col-lg-12 my-3">
+            Radio Button
+        </div>
+        <div class="col-lg-2 custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Option1</label>
+          </div>
+          <div class="col-lg-2 custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" checked>
+            <label class="custom-control-label" for="customRadioInline2">Option 2</label>
+          </div>
+    </div>
+
+    <!-- checkbox -->
+    <div class="row">
+        <div class="col-lg-12 my-3">
+            Checkbox
+        </div>
+        <div class="col-lg-2">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Option 1</label>
+        </div>
+        <div class="col-lg-2">
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2" checked> Option 2</label>
+        </div>
+    </div>
+
+    <!-- Snackbars -->
+    <div class="row">
+        <div class="col-lg-12 my-3">
+            Snackbars
+        </div>
+        <div class="row">
+           <div class="col-lg-6 col-md-6">
+            
+           </div>
+            <div class="col-lg-6 col-md-6">
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+
+            </div>
+            <div class="col-lg-6 col-md-6">
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+    </main>
+    <script src="js/custom.js"></script>
+</body>
+</html>
