@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .error{
+    width: 20px;
+    height: 20px;
+}
+.primary{
+    border-radius: 23px;
+    width: 124px;
+    height: 45px;
+    box-shadow: none;
+}
+.second{
+    width: 145px;
+    height: 44px;
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+    background: white;
+}
+    </style>
 </head>
 <body>
 
@@ -24,7 +43,7 @@
 		<a href="#" class="brand"></a>  
 		<ul class="side-menu">
             <li><a href="/dashboard5.html" ><img src="./images/dashboard-default.svg" style="margin-left: 12px;margin-right: 12px;">Dashboard</a></li>
-            <li><a href="#" class="active " ><img src="./images/graph-active.svg" style="margin-left: 12px;margin-right: 12px;">  Analysis</a></li>
+            <li><a href="/" class="active " ><img src="./images/graph-active.svg" style="margin-left: 12px;margin-right: 12px;">  Analysis</a></li>
             <li><a href="#" ><img src="./images/inbox-default.svg" style="margin-left: 12px;margin-right: 12px;">  Inbox</a></li>
             <li><a href="#" ><img src="./images/clock-default.svg" style="margin-left: 12px;margin-right: 12px;">  History</a></li>
             <li><a href="#" ><img src="./images/user-default.svg" style="margin-left: 12px;margin-right: 12px;">  Users</a></li>
@@ -63,7 +82,7 @@
     <div class="container-fluid" style="background: #ffffff;">
         <div class="row">
             <div class="col-lg-12">
-                One column
+                <h3>One column</h3>
             </div>
             <div class="col-lg-12 my-3">
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
@@ -73,9 +92,9 @@
                     <option>Dropdown</option>
                 </select>
             </div>
-            <div class="form-floating col-lg-12 my-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
+            <div class="col-lg-12 my-3">
+                <textarea name="address" class="form-control" cols="20" rows="4" placeholder="Multiple line"></textarea>
+                
               </div>
         </div>
 
@@ -84,7 +103,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                Two column
+                <h3>Two column</h3>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 my-3">
@@ -109,7 +128,7 @@
         <!-- three column row -->
         <div class="row">
             <div class="col-lg-12">
-                Three column
+                <h3>Three column</h3>
             </div>
             <div class="col-lg-4 col-md-4 my-3">
                 <input type="text" class="form-control border-danger" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
@@ -126,7 +145,7 @@
     <!-- four column row -->
     <div class="row">
         <div class="col-lg-12">
-            Four column
+           <h3> Four column</h3>
         </div>
         <div class="col-lg-3 col-md-3 my-3">
             
@@ -154,10 +173,10 @@
     <!-- other desgn element-file upload -->
     <div class="row">
         <div class="col-lg-12 my-3">
-            Other Design Elements
+            <h3>Other Design Elements</h3>
         </div>
         <div class="col-lg-12 my-3">
-            File Upload
+            <h3>File Upload</h3>
         </div>
         <div class="col-12">
             <button type="button" class="btn btn-outline-danger" style="border-radius: 20px;width:150px">Upload</button>
@@ -168,7 +187,7 @@
     <!-- Radio Button -->
     <div class="row">
         <div class="col-lg-12 my-3">
-            Radio Button
+            <h3>Radio Button</h3>
         </div>
         <div class="col-lg-2 custom-control custom-radio custom-control-inline">
             <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -183,7 +202,7 @@
     <!-- checkbox -->
     <div class="row">
         <div class="col-lg-12 my-3">
-            Checkbox
+           <h3>Checkbox</h3>
         </div>
         <div class="col-lg-2">
             <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
@@ -198,24 +217,68 @@
     <!-- Snackbars -->
     <div class="row">
         <div class="col-lg-12 my-3">
-            Snackbars
+            <h3>Snackbars</h3>
         </div>
         <div class="row">
-           <div class="col-lg-6 col-md-6">
-            
+           <div class="col-lg-6 col-md-6 my-3">
+            <button class="btn btn-outline-danger d-flex" style="width: 95%;">
+                <img src="/images/error-icon.svg" alt="" class="error me-2 mt-1">This is an error messaage!
+            </button>
            </div>
-            <div class="col-lg-6 col-md-6">
-               
+            <div class="col-lg-6 col-md-6 my-3">
+                <button class="btn btn-outline-info d-flex" style="width: 95%;">
+                    <img src="/images/info-icon.svg" alt="" class="error me-2 mt-1">This is an information messaage!
+                </button>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6">
-
+            <div class="col-lg-6 col-md-6 my-3">
+                <button class="btn btn-outline-warning d-flex" style="width: 95%;">
+                    <img src="/images/warning-icon.svg" alt="" class="error me-2 mt-1">This is a warning messaage!
+                </button>
             </div>
-            <div class="col-lg-6 col-md-6">
-                
+            <div class="col-lg-6 col-md-6 my-3">
+                <button class="btn btn-outline-success d-flex" style="width: 95%;">
+                    <img src="/images/success-icon.svg" alt="" class="error me-2 mt-1">This is a success messaage!
+                </button>
             </div>
         </div>
+    </div>
+
+    <!-- call to action -->
+    <div class="row">
+        <div class="col-lg-12 my-3">
+            <h3>Call to action</h3>
+        </div>
+        <div class="col-lg-1 me-5 col-md-2 col-sm-1 col-1">
+            <button class="btn-danger primary"><b>Primary</b></button>
+        </div>
+        <div class="col-lg-1 col-md-2 col-sm-1 col-1">
+            <button class="btn-outline-danger second"><b>Secondary</b></button>
+        </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="row">
+        <div class="col-lg-12 my-3">
+            <h3>Tabs</h3>
+        </div>
+        <nav class="navbar navbar-expand-lg ms-5">
+            <ul class="navbar-nav" style="text-decoration: underline;">
+                <li>
+                    <a class="nav-link text-danger" href="#">Tab1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" aria-disabled="true">Tab2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Tab3</a>
+                </li>                                  
+            </ul>
+        </nav>
+        <hr class="ms-5" style="width: 92%;">
+        <div class="ms-5" style="width: 1119px; font: normal normal normal 15px/24px Roboto;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</div>
+    </div>
     </div>
 
 </div>
